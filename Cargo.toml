@@ -9,3 +9,5 @@ edition = "2018"
 [dependencies]
 reqwest = { version = "0.10.9", features = ["cookies"] }
 tokio = { version = "0.2", features = ["full"] }
+regex = "1"
+lazy_static = "1.4"
